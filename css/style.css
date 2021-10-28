@@ -1,3 +1,6 @@
+.container-fluid {
+    background-color: #eee;
+}
 .navigation-bar {
     display: flex;
     flex-direction: row;
@@ -30,9 +33,7 @@ section {
     align-items: center;
     height: 50vh;    
 }
-#started{
-    background-color: #eee;
-}
+
 #btn{
     font-size: 1em;
     border: none;
@@ -49,4 +50,54 @@ section {
     padding: 10px;
     border-radius: 30px;
     width: 300px;
+}
+
+.flex-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#working > iframe {
+    max-width: 550px;
+    width: 100%;
+    height: 315px
+}
+#pricing .row, .footer-contents {
+    width: 70%;
+    margin: 0 auto;
+}
+.card-name {
+    background-color: #ddd;
+    padding: 8px;
+}
+.card {
+    margin-top: -8px;
+}
+#pricing .btn {
+    background-color: rgb(230, 171, 7);
+}
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-list {
+    list-style-type: none;
+}
+.footer-list li {
+    padding: 8px;
+}
+.footer-contents{
+    background-color: #ddd;
+    padding: 8px;
+}
+.footer-contents a {
+    text-decoration: none;
+    color: black;
+}
+.footer-contents span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: .9rem;
+    color: #444;
 }
